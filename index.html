@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <link rel="icon" href="icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Fauna+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <button id="new">New book</button>
+    <form onsubmit="return false">
+        <input type="text" placeholder="Title" id="title" required>
+        <input type="text" placeholder="Author" id="author">
+        <input type="number" placeholder="Pages" id="pages" min="1">
+        <select name="" id="">
+            <option value="Reading">Reading</option>
+            <option value="Completed">Completed</option>
+            <option value="On-Hold">On-Hold</option>
+            <option value="Dropped">Dropped</option>
+            <option value="Plan to Read">Plan to Read</option>
+        </select>
+        <section>
+            <input type="submit" value="Add">
+            <input type="reset" value="Cancel">
+        </section>
+    </form>
+    <main></main>
+</body>
+</html>
